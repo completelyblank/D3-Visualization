@@ -1,12 +1,12 @@
 //start request->
 document.addEventListener('DOMContentLoaded',function() {
     var url = "https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json";
-    req=new XMLHttpRequest();
+    var req=new XMLHttpRequest();
     req.open("GET",url,true);
     req.send();
     req.onload=function()
     {
-    json=JSON.parse(req.responseText);		//Read file data
+   var json=JSON.parse(req.responseText);		//Read file data
       var dataset = json.data;
       
       //text year data ->json objects for plot
