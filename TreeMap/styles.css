@@ -1,0 +1,47 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+h1, p {
+  text-align: center;
+}
+
+#treemap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile {
+  stroke: #000;
+  stroke-width: 1px;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: #0f0;
+  padding: 5px;
+  border: 1px solid #0f0;
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+#legend {
+  font-size: 12px;
+  color: #fff;
+}
+
+.legend-item {
+  stroke: #000;
+  stroke-width: 1px;
+}
+
+.tile-text {
+  fill: #fff;
+  font-size: 10px;
+  pointer-events: none;
+}
