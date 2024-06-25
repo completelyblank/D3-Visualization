@@ -1,0 +1,31 @@
+title {
+  color: white;
+}
+body{
+  background: black;
+  color: white
+}
+.county {
+  stroke: #000;
+  stroke-width: 0.5px;
+}
+
+#tooltip {
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border: 1px solid #ff0000;
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+#map {
+  position: relative;
+}
+
+#legend {
+  font-size: 12px;
+  color: #ff0000;
+}
